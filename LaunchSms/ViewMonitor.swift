@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  ViewMonitor.swift
 //  LaunchSms
 //
 //  Created by SantiagoDls on 03/09/15.
@@ -8,30 +8,21 @@
 
 import UIKit
 
-var user=""
-var pass=""
-class ViewController: UIViewController {
-
-    @IBOutlet var txtUser: UITextField!
-    @IBOutlet var txtPass: UITextField!
+class ViewMonitor: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        self.lbInfo.text="Binvenido " + user
     }
-
+    
+    @IBOutlet var lbInfo: UILabel!
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
 
-
-    @IBAction func goToViewMonitor(sender: AnyObject) {
-        
-     user=self.txtUser.text!
-     pass=self.txtPass.text!
-        
-     performSegueWithIdentifier("segueMainToMonitor", sender: self)
-
+    @IBAction func goToViewMenu(sender: AnyObject) {
+         performSegueWithIdentifier("segueMonitorToMain", sender: self)
     }
 }
-

@@ -14,6 +14,7 @@
 		F8E111D01B98A9380022B8EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8E111CE1B98A9380022B8EE /* LaunchScreen.storyboard */; };
 		F8E111DB1B98A9380022B8EE /* LaunchSmsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E111DA1B98A9380022B8EE /* LaunchSmsTests.swift */; };
 		F8E111E61B98A9380022B8EE /* LaunchSmsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E111E51B98A9380022B8EE /* LaunchSmsUITests.swift */; };
+		F8E111FC1B98AF4E0022B8EE /* ViewMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E111FB1B98AF4E0022B8EE /* ViewMonitor.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		F8E111E11B98A9380022B8EE /* LaunchSmsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LaunchSmsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8E111E51B98A9380022B8EE /* LaunchSmsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchSmsUITests.swift; sourceTree = "<group>"; };
 		F8E111E71B98A9380022B8EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8E111FB1B98AF4E0022B8EE /* ViewMonitor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewMonitor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				F8E111C51B98A9380022B8EE /* AppDelegate.swift */,
 				F8E111C71B98A9380022B8EE /* ViewController.swift */,
 				F8E111C91B98A9380022B8EE /* Main.storyboard */,
+				F8E111FB1B98AF4E0022B8EE /* ViewMonitor.swift */,
 				F8E111CC1B98A9380022B8EE /* Assets.xcassets */,
 				F8E111CE1B98A9380022B8EE /* LaunchScreen.storyboard */,
 				F8E111D11B98A9380022B8EE /* Info.plist */,
@@ -257,6 +260,7 @@
 			files = (
 				F8E111C81B98A9380022B8EE /* ViewController.swift in Sources */,
 				F8E111C61B98A9380022B8EE /* AppDelegate.swift in Sources */,
+				F8E111FC1B98AF4E0022B8EE /* ViewMonitor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,6 +403,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LaunchSms/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = construapps.LaunchSms;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -410,6 +415,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LaunchSms/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = construapps.LaunchSms;
 				PRODUCT_NAME = "$(TARGET_NAME)";
